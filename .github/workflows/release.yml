@@ -3,6 +3,8 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
+  
 env:
   SHORT_NAME: walle-q
   CRATE_NAME: walle-q
